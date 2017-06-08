@@ -53,7 +53,7 @@ for line in import_list:
             print("Use sudo apt-get install python3-pip")
             sys.exit(1)
          print('No lib '+line[0]+'-'+line[1])
-         os.system("python"+sys.version[0:3]+" -m pip install '"+line[0]+'=='+line[1]+"' --target="+LIB_DIR+" -b "+TMP_DIR)
+         os.system("python"+sys.version[0:3]+" -m pip install '"+line[0]+'=='+line[1]+"' --target="+LIB_DIR)
       module_obj = __import__(line[0])
       globals()[line[0]] = module_obj
    except ImportError as e:
