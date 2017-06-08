@@ -1,4 +1,4 @@
-#! /usr/bin/env python3.4
+#! /usr/bin/env python3.5
 #! -*- coding: utf-8 -*-
 '''
 Created on 27 lip 2015
@@ -38,6 +38,7 @@ sys.path.insert(0,LIB_DIR)
 import_list = [
 #   ('sqlalchemy','1.0.8','SQLAlchemy-1.0.8.egg-info'),
 #   ('paramiko','1.15.2','paramiko-1.15.2.dist-info'),
+#   ('lxml', '3.8.0', 'lxml-3.8.0.dist-info'),
    ('colorama','0.3.3','colorama-0.3.3.egg-info')]
 
 for line in import_list:
